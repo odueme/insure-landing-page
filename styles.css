@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-   
+
 }
 
 
@@ -29,7 +29,7 @@
 
 img{
     pointer-events: none;
-   
+
 }
 
 body{
@@ -37,7 +37,7 @@ body{
     width: 100%;
     margin: 0 auto;
     padding: 0;
- 
+
 }
 
 
@@ -62,7 +62,7 @@ button{
 
 .intro-img{
    width: 100%;
-   
+
 }
 
 .section-2{
@@ -70,9 +70,9 @@ button{
     flex-direction: column;
     align-items: center;
     width: 90%;
-    
-  
-    
+
+
+
 }
 
 .dropdown{
@@ -90,7 +90,7 @@ button{
     display: none;
     transform: translateY(75px);
     position: absolute;
-} 
+}
 
 .display-dropdown{
     background-image: url("images/bg-pattern-mobile-nav.svg");
@@ -129,8 +129,8 @@ button{
     flex-direction: column;
     margin: 0 auto;
     width: 100%;
-    
-   
+
+
 }
 
 
@@ -143,7 +143,7 @@ button{
     background-position: right bottom;
     margin: 0 auto;
     width: 100%;
-  
+
 }
 
 .bg-color{
@@ -154,7 +154,7 @@ button{
     background-image: url("images/bg-pattern-intro-left-mobile.svg");
     background-repeat: no-repeat;
     background-position:  left top;
-   
+
 }
 
 .top h1{
@@ -178,16 +178,16 @@ button{
 
 
 .icon-section{
-  
+
     display: flex;
     flex-direction: column;
     align-items: center;
-   
+
 }
 .icon-section h2{
     font-family: 'DM Serif Display', sans-serif;
     margin: 1.5rem auto 0.8em;
-    
+
 }
 
 .icon-div{
@@ -205,7 +205,7 @@ button{
 }
 
 header{
-    
+
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -234,7 +234,7 @@ hr{
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+
 }
 
 
@@ -301,14 +301,14 @@ h1{
     font-family: 'DM Serif Display', sans-serif;
     font-weight: 400;
     font-size: 2.5rem;
-  
+
     line-height: 55px;
     max-width: 7em;
     min-width: 6em;
-    
 
-    
-   
+
+
+
 }
 
 p{
@@ -322,14 +322,14 @@ p{
     display: flex;
     width: 20%;
     justify-content: center;
- 
-    
+
+
 }
 
 .footer-top{
     display: flex;
     flex-direction: column;
-   
+
     width: 100%;
     align-items: center;
 }
@@ -349,7 +349,7 @@ span{
 
 
 
-@media (min-width: 1200px){
+@media (min-width:  1200px){
 
     body{
         max-width: 1800px;
@@ -396,7 +396,7 @@ span{
     transition: 0.5s;
     }
 
-   
+
 
     .head-desktop a{
         text-decoration: none;
@@ -411,7 +411,7 @@ span{
         gap: 2em;
         align-items: center;
         justify-content: end;
-       
+
     }
 
     .section-2-bottom{
@@ -422,7 +422,7 @@ span{
         flex-direction: row;
         justify-content: space-between;
        padding: 0 60px;
-    
+
     }
 
     .section-2-bottom h1{
@@ -449,8 +449,8 @@ span{
         z-index: 1000;
         display: flex;
         align-items: center;
-       
-        
+
+
     }
 
     .intro-pattern{
@@ -468,16 +468,16 @@ span{
 
 
     .top{
-      
+
         display: flex;
         flex-direction: column;
         align-items: left;
        width: 40%;
        position: absolute;
        gap: 1em;
-       
+
     }
-    
+
     .bg-color{
        position: relative;
        height: 700px;
@@ -502,14 +502,14 @@ span{
         z-index: 9999;
         position: absolute;
 
-      
+
     }
 
     .section-1 h1, p{
         text-align:left;
         margin: 0;
-   
-     
+
+
     }
 
     .section-1 h1{
@@ -518,8 +518,8 @@ span{
 
     .section-1 p{
         max-width: 34em;
-       
-        
+
+
     }
 
     .intro-img{
@@ -535,7 +535,7 @@ span{
     .section-2{
         order: 4;
         align-items: flex-start;
-        
+
         width: 70%;
     }
 
@@ -544,7 +544,7 @@ span{
         max-width: 23em;
     }
 
-    
+
 
     .footer{
         order: 5;
@@ -556,9 +556,9 @@ span{
         flex-direction: row;
         justify-content: space-between;
         gap: 1em;
-        
-     
-        
+
+
+
     }
 
     .hr-div{
@@ -583,7 +583,7 @@ span{
         width: 70%;
     }
 
- 
+
     .logo{
         align-self: center;
     }
@@ -592,12 +592,12 @@ span{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-    
+
         width: 70%;
     }
 
     .social{
-        
+
        width: 15%;
     }
 
@@ -606,4 +606,3 @@ span{
     }
 
 }
-
